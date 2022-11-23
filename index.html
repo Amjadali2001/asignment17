@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>asignment 17</h1>
+   
+
+    <script>
+        // Write a program using a for loop and print the numbers from 200 till 0 with the
+        // decrement of 3.
+
+        for(let i =200; i>=0; i=i-3){
+            console.log(i)
+        }
+
+        // Write a program to display your name 10 times using a while loop.
+
+        let count = 0;
+        while (count < 10) {
+          count++; 
+          console.log('Hello');
+        };
+
+        // Write a program to print a sum of even numbers in between 1-10 using a while loop.
+
+        // sum problems
+        //even numbers print 1-10 
+        let i, sum = 0
+        // i = 1
+        while (i <= 10) {
+
+            if (i % 2 == 0) {
+                sum = sum + i
+            }
+
+            i++
+        }
+        console.log(sum)
+
+
+        // 4. Write a program to display a number between 1 to 5 using the do while loop.
+        let i = 1;
+        while (i <= 5) {  
+            console.log(i);
+            i++;
+        }
+
+        // 5. Write a function to print the sum of two numbers.
+
+        function sum(a, b) {
+            console.log(a + b);
+        }
+      
+        sum(10, 5);
+        sum(15, 10);
+
+
+//  6 Invoke a function and pass values to the ‘width’ &amp; ‘height’ parameters inside the
+// parenthesis store the return value in a variable ‘Area’ and print it in the console.
+
+
+function calculateArea(width,height){
+    let result = width * height;
+    return result;
+}
+let area = calculateArea(20,50);
+console.log(area);
+
+    </script>
+
+ 
+
+
+
+
+
+</body>
+
+</html>
